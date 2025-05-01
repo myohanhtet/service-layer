@@ -1,0 +1,39 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Services\{{ interface }};
+
+class {{ class }} implements {{ interface }}
+{
+    public function __construct()
+    {
+      // Constructor logic here
+    }
+
+    public function save(array $data): array
+    {
+      // TODO: Implement save() method.
+    }
+
+    public function delete(int $id): bool
+    {
+      // TODO: Implement delete() method.
+    }
+
+    public function find(int $id): ?array
+    {
+      // TODO: Implement find() method.
+    }
+
+    public function findAll(): array
+    {
+      // TODO: Implement findAll() method.
+    }
+
+    public function update(int $id, array $data): bool
+    {
+      // TODO: Implement update() method.
+    }
+
+}

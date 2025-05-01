@@ -1,0 +1,16 @@
+<?php
+
+namespace {{ namespace }};
+
+interface {{ interface }}
+{
+    public function save(array $data): array;
+
+    public function delete(int $id): bool;
+
+    public function find(int $id): ?array;
+
+    public function findAll(): array;
+
+    public function update(int $id, array $data): bool;
+}
